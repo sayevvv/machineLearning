@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
 
-data = np.genfromtxt('data.csv', delimiter=',', skip_header=1)
+data = np.genfromtxt('data1.csv', delimiter=',', skip_header=1)
 
 x = data[:, 0]
 y = data[:, 1]
